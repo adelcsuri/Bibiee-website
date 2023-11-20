@@ -1,0 +1,19 @@
+nav, p{
+    font: Overpass, Regular;
+}
+h2, h3{
+    font: Nanum Myeongjo, ExtraBold;
+    font-size: larger;
+}
+
+
+
+.category-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.Categories{
+    width: 80%;
+}
