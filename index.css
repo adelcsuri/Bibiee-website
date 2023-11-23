@@ -1,3 +1,5 @@
+/*colors*/
+
 html {
   --dark: #231f20;
   --pink: #b76567;
@@ -8,15 +10,34 @@ html {
   --orange-hover: #f37400;
   --pink-hover: #e07b7d;
 }
+
+
+/*Body*/
+
+
 nav,
 p {
   font: Overpass, Regular;
 }
+
+h1{
+color: var(--white)
+}
+
 h2,
 h3 {
   font: Nanum Myeongjo, ExtraBold;
   font-size: larger;
+  text-align: center;
 }
+
+
+
+.product_name, .price{
+color: #231f20;
+}
+
+
 
 .category-container {
   display: grid;
@@ -49,4 +70,11 @@ body {
   flex-direction: row;
   justify-content: space-between;
   background-color: var(--orange);
+  color: var(--white);
+}
+
+/*Footer*/
+
+footer{
+  background-color: var(--dark);
 }
