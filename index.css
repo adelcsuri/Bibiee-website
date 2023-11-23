@@ -17,6 +17,11 @@ h2, h3{
     width: 80%;
 }
 
+.category_name{
+text-align: justify;
+}
+
+
 body{
         background-image: url(icons/Backgroud\ icon.svg);
 
