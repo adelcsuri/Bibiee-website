@@ -1,28 +1,52 @@
-nav, p{
-    font: Overpass, Regular;
+html {
+  --dark: #231f20;
+  --pink: #b76567;
+  --brown: #2e140c;
+  --white: #ffffff;
+  --orange: #d06809;
+  --beige: #dcc3ab;
+  --orange-hover: #f37400;
+  --pink-hover: #e07b7d;
 }
-h2, h3{
-    font: Nanum Myeongjo, ExtraBold;
-    font-size: larger;
+nav,
+p {
+  font: Overpass, Regular;
 }
-
-
-.category-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    
-}
-
-.Categories{
-    width: 80%;
-}
-
-.category_name{
-text-align: justify;
+h2,
+h3 {
+  font: Nanum Myeongjo, ExtraBold;
+  font-size: larger;
 }
 
+.category-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
 
-body{
-        background-image: url(icons/Backgroud\ icon.svg);
+.Categories {
+  width: 80%;
+}
 
+.product_name {
+  text-align: justify;
+}
+
+body {
+  background-image: url(icons/Backgroud\ icon.svg);
+  margin: 0;
+}
+.section-first-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(pictures/home\ page\ product\ image.png);
+  background-position: center;
+  height: 55vw;
+}
+.advantages-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--orange);
 }

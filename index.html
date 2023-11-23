@@ -14,18 +14,20 @@
   </head>
   <body>
     <header>
-      <a href="index.html">
-        <figure>
-          <img
-            class="Header_icons"
-            src="icons/Bibiee logo.svg"
-            alt="Bibiee logo"
-          />
-          <figcaption class="Header_icons_names"></figcaption>
-        </figure>
-      </a>
       <nav>
+        <div id="language-selector">
+          <p>En</p>
+          <p>/</p>
+          <p>Hu</p>
+        </div>
         <ul>
+          <a href="index.html">
+            <img
+              class="Header_logo"
+              src="icons/Bibiee logo.svg"
+              alt="Bibiee logo"
+            />
+          </a>
           <a href="productpage.html">
             <li>Products</li>
           </a>
@@ -38,59 +40,66 @@
           <a href="#">
             <li>Contact</li>
           </a>
+        </ul>
+        <ul>
           <a href="#">
-            <figure>
-              <img
-                class="Header_icons"
-                src="icons/account icon.svg"
-                alt="Account icon"
-              />
-              <figcaption class="Header_icons_names"></figcaption>
-            </figure>
+            <img
+              class="Header_icons"
+              src="icons/account icon.svg"
+              alt="Account icon"
+            />
           </a>
           <a href="#">
-            <figure>
-              <img
-                class="Header_icons"
-                src="icons/heart icon.svg"
-                alt="Heart icon"
-              />
-              <figcaption class="Header_icons_names"></figcaption>
-            </figure>
+            <img
+              class="Header_icons"
+              src="icons/heart icon.svg"
+              alt="Heart icon"
+            />
           </a>
           <a href="#">
-            <figure>
-              <img
-                class="Header_icons"
-                src="icons/cart icon.svg"
-                alt="Cart icon"
-              />
-              <figcaption class="Header_icons_names"></figcaption>
-            </figure>
+            <img
+              class="Header_icons"
+              src="icons/cart icon.svg"
+              alt="Cart icon"
+            />
           </a>
         </ul>
       </nav>
     </header>
     <main>
-      <h1>Made with love</h1>
-      <a href="#">
-        <li>Discover more</li>
-      </a>
-      <h2>Who are we?</h2>
-      <p>
-        Bibiee is a Hungarian brand, that was founded in 2015. We offer unique
-        knitted products. All of them are handmade from quality materials. We
-        got you if you need something warm for the chilly winter or beautiful
-        accessories for the hot summer days.
-      </p>
-      <img src="icons/location icon.svg" alt="location icon">
-      <img src="icons/quality product icon.svg" alt="label icon">
-      <img src="icons/handmade icon.svg" alt="handmade icon">
-      <img src="icons/packageing icon.svg" alt="package icon">
-      <p>Made in Hungary</p>
-      <p>Quality products</p>
-      <p>Uniquely handmade</p>
-      <p>100% paper packaging</p>
+      <section class="section-first-home">
+        <h1>Made with love</h1>
+        <a href="#">
+          <li>Discover more</li>
+        </a>
+      </section>
+      <section>
+        <h2>Who are we?</h2>
+        <p>
+          Bibiee is a Hungarian brand, that was founded in 2015. We offer unique
+          knitted products. All of them are handmade from quality materials. We
+          got you if you need something warm for the chilly winter or beautiful
+          accessories for the hot summer days.
+        </p>
+      </section>
+      <section class="advantages-container">
+        <figure>
+          <img src="icons/location icon.svg" alt="location icon" />
+          <p>Made in Hungary</p>
+        </figure>
+        <figure>
+          <img src="icons/quality product icon.svg" alt="label icon" />
+          <p>Quality products</p>
+        </figure>
+        <figure>
+          <img src="icons/handmade icon.svg" alt="handmade icon" />
+          <p>Uniquely handmade</p>
+        </figure>
+        <figure>
+          <img src="icons/packageing icon.svg" alt="package icon" />
+          <p>100% paper packaging</p>
+        </figure>
+      </section>
       <h3>Winter is coming...you better dress up</h3>
       <section class="category-container">
         <a href="#">
@@ -100,7 +109,8 @@
               src="pictures/basic beanie mustard man.png"
               alt="Basic beanie beige"
             />
-            <figcaption class="category-names">Basic beanie</figcaption>
+            <figcaption class="product_name">Basic beanie</figcaption>
+            <figcaption class="price">300 SEK</figcaption>
           </figure>
         </a>
         <a href="#">
@@ -110,7 +120,8 @@
               src="pictures/couple gloves.png"
               alt="Gloves for couples"
             />
-            <figcaption class="category-names">Gloves for couples</figcaption>
+            <figcaption class="product_name">Gloves for couples</figcaption>
+            <figcaption class="price">300 SEK</figcaption>
           </figure>
         </a>
         <a href="#">
@@ -120,7 +131,8 @@
               src="pictures/basic_beanie_black_man.png"
               alt="Basic beanie black"
             />
-            <figcaption class="category-names">Basic beanie</figcaption>
+            <figcaption class="product_name">Basic beanie</figcaption>
+            <figcaption class="price">300 SEK</figcaption>
           </figure>
         </a>
         <a href="#">
@@ -130,7 +142,8 @@
               src="pictures/pompom beanie black woman.png"
               alt="Pom pom beanie black"
             />
-            <figcaption class="category-names">Pom pom beanie</figcaption>
+            <figcaption class="product_name">Pom pom beanie</figcaption>
+            <figcaption class="price">500 SEK</figcaption>
           </figure>
         </a>
         <a href="#">
@@ -140,7 +153,8 @@
               src="pictures/scarf_black.png"
               alt="Scarf black"
             />
-            <figcaption class="category-names">Scarf</figcaption>
+            <figcaption class="product_name">Scarf</figcaption>
+            <figcaption class="price">400 SEK</figcaption>
           </figure>
         </a>
         <a href="#">
@@ -150,60 +164,68 @@
               src="pictures/fox beanie red.png"
               alt="Fox beanie red"
             />
-            <figcaption class="category-names">Fox beanie</figcaption>
+            <figcaption class="product_name">Fox beanie</figcaption>
+            <figcaption class="price">300 SEK</figcaption>
           </figure>
         </a>
       </section>
     </main>
-    <footer></footer>
+    <footer>
       <nav>
+        <a href="index.html">
+          <img
+            class="Footer_logo"
+            src="icons/bibiee logo white.svg"
+            alt="Bibiee logo"
+          />
+        </a>
+        <div>
+          <ul>
+            <a href="productpage.html">
+              <li>Products</li>
+            </a>
+            <a href="#">
+              <li>Events</li>
+            </a>
+          </ul>
+          <ul>
+            <a href="#">
+              <li>About us</li>
+            </a>
+            <a href="#">
+              <li>Contact us</li>
+            </a>
+          </ul>
+          <ul>
+            <a href="#">
+              <li>bibieeknitting@gmail.com</li>
+            </a>
+            <a href="#">
+              <li>+36303696450</li>
+            </a>
+          </ul>
+        </div>
         <ul>
-          <a href="index.html">
-            <figure>
-              <img
-                class="Footer_icons"
-                src="icons/bibiee logo white.svg"
-                alt="Bibiee logo"
-              />
-              <figcaption class="Footer_icons_names"></figcaption>
-            </figure>
-          </a>
-          <a href="productpage.html">
-            <li>Products</li>
+          <a href="#">
+            <img
+              class="Footer_icons"
+              src="icons/instagram icon.svg"
+              alt="Instagram icon"
+            />
           </a>
           <a href="#">
-            <li>Events</li>
+            <img
+              class="Footer_icons"
+              src="icons/email icon.svg"
+              alt="Email icon"
+            />
           </a>
           <a href="#">
-            <li>About us</li>
-          </a>
-          <a href="#">
-            <li>Contact</li>
-          </a>
-          <a href="#">
-            <li>bibieeknitting@gmail.com</li>
-          </a>
-          <a href="#">
-            <li>+36303696450</li>
-          <a href="#">
-            <figure>
-              <img
-                class="Footer_icons"
-                src="icons/instagram icon.svg"
-                alt="Instagram icon"
-              />
-              <figcaption class="Footer_icons_names"></figcaption>
-            </figure>
-          </a>
-          <a href="#">
-            <figure>
-              <img
-                class="Footer_icons"
-                src="icons/facebook icon.svg"
-                alt="Facebook icon"
-              />
-              <figcaption class="Footer_icons_names"></figcaption>
-            </figure>
+            <img
+              class="Footer_icons"
+              src="icons/facebook icon.svg"
+              alt="Facebook icon"
+            />
           </a>
         </ul>
       </nav>
