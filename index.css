@@ -80,3 +80,12 @@ footer{
   background-color: var(--dark);
 }
 
+.productpage{
+font-family: 'Courier New', Courier, monospace;
+}
+
+.topnavigation{
+  height: 70px;
+  display: block;
+  
+}
