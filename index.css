@@ -7,7 +7,6 @@ h2, h3{
 }
 
 
-
 .category-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -16,4 +15,9 @@ h2, h3{
 
 .Categories{
     width: 80%;
+}
+
+body{
+        background-image: url(icons/Backgroud\ icon.svg);
+
 }
