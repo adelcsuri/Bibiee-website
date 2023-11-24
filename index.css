@@ -1,5 +1,7 @@
 /*colors*/
-
+* {
+  font-family: "Overpass", sans-serif;
+}
 html {
   --dark: #231f20;
   --pink: #b76567;
@@ -11,69 +13,91 @@ html {
   --pink-hover: #e07b7d;
 }
 
-
 /*Body*/
 
-nav {  
-  display: flex;  
-  justify-content: space-between;  
-  align-items: center;  
-  padding: 10px 0;  
-}  
-  
-nav ul {  
-  display: flex;  
-  list-style-type: none;  
-  margin: 0;  
-  padding: 0;  
-}  
-  
-nav ul li {  
-  position: relative;  
-  margin-right: 50px;  
-  display: flex;  
+/*Header*/
+header {
+  background: transparent;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-}  
-  
-nav ul li a {  
-  color: var(--dark);  
-  text-decoration: none;  
-}  
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10px 0;
+}
 
 #language-selector {
-  margin-left: 200px;
+  display: flex;
+  gap: 0px;
+  flex-direction: row;
+  padding-right: 83px;
+  text-transform: uppercase;
+}
+
+.language-selector-font {
+  font-weight: 700;
+}
+
+header nav div p {
+  padding: 4px 4px 4px 4px;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  min-width: 50%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: var(--dark);
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0;
 }
 
 #Header_icons {
-  margin-right: 200px;
+  display: flex;
+  gap: 10px;
 }
 
-p {
-  font: Overpass, Regular;
+header nav div a {
+  padding: 10px 10px 6px 10px;
 }
 
-h1{
-color: var(--white)
+/*--------------------------------*/
+
+h1 {
+  color: var(--white);
 }
 
-h2,
-h3 {
-  font: Nanum Myeongjo, ExtraBold;
-  font-size:50px;
+h2 {
+  color: var(--dark);
+  font-family: "Nanum Myeongjo";
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 50px;
   text-align: center;
 }
 
-
-
-.product_name, .price{
-color: #231f20;
+.product_name,
+.price {
+  color: var(--dark);
 }
-
-
 
 .category-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 .Categories {
@@ -108,12 +132,6 @@ body {
 
 /*Footer*/
 
-footer{
-  background-color: var(--dark);
-}
-
-.topnavigation{
-  height: 70px;
-  display: block;
-  
+footer {
+  background-color: var(--brown);
 }
