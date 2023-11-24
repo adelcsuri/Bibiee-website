@@ -81,8 +81,18 @@ footer{
 }
 
 .productpage{
-font-family: 'Courier New', Courier, monospace;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.eventpage{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+.aboutpage{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+.contactpage{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
 
 .topnavigation{
   height: 70px;
