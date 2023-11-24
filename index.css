@@ -14,8 +14,40 @@ html {
 
 /*Body*/
 
+nav {  
+  display: flex;  
+  justify-content: space-between;  
+  align-items: center;  
+  padding: 10px 0;  
+}  
+  
+nav ul {  
+  display: flex;  
+  list-style-type: none;  
+  margin: 0;  
+  padding: 0;  
+}  
+  
+nav ul li {  
+  position: relative;  
+  margin-right: 20px;  
+  display: flex;  
+  align-items: center;
+}  
+  
+nav ul li a {  
+  color: #000000;  
+  text-decoration: none;  
+}  
 
-nav,
+#language-selector {
+  margin-left: 200px;
+}
+
+#Header_icons {
+  margin-right: 200px;
+}
+
 p {
   font: Overpass, Regular;
 }
