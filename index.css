@@ -13,7 +13,7 @@ html {
   --pink-hover: #e07b7d;
 }
 
-/*Body*/
+
 
 /*Header*/
 header {
@@ -73,11 +73,15 @@ header nav div a {
   padding: 10px 10px 6px 10px;
 }
 
-/*--------------------------------*/
+/*body*/
 
 h1 {
   color: var(--white);
+  font-family: "Dancing Script";
+  font-size: 100px;
+
 }
+
 
 h2 {
   color: var(--dark);
@@ -112,7 +116,7 @@ body {
   background-image: url(icons/Backgroud\ icon.svg);
   margin: 0;
 }
-.section-first-home {
+.section-first-home{
   display: flex;
   flex-direction: column;
   justify-content: center;
