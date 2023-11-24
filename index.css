@@ -36,7 +36,7 @@ nav ul li {
 }  
   
 nav ul li a {  
-  color: #000000;  
+  color: var(--dark);  
   text-decoration: none;  
 }  
 
@@ -111,20 +111,6 @@ body {
 footer{
   background-color: var(--dark);
 }
-
-.productpage{
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.eventpage{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-  
-.aboutpage{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-.contactpage{
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
 
 .topnavigation{
   height: 70px;
