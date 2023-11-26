@@ -125,6 +125,7 @@ body {
   background-position: center;
   height: 55vw;
 }
+
 .advantages-container {
   display: flex;
   flex-direction: row;
@@ -138,4 +139,15 @@ body {
 
 footer {
   background-color: var(--brown);
+}
+
+.footer{
+  color: var(--white);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3.5rem;
+}
+
+.links{
+  color: var(--white);
 }
