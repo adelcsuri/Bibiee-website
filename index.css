@@ -77,8 +77,8 @@ header nav ul li a {
 }
 
 .Header-icons-container {
-  display:flex;
-  gap: 30px;
+  display: flex;
+  gap: 20px;
 }
 
 header nav div a {
@@ -111,16 +111,11 @@ h2 {
   font-weight: 900;
   font-size: 50px;
   text-align: center;
-
 }
 
-h3{
-  color: var(--dark);
-  font-family: "Nanum Myeongjo";
-  text-transform: uppercase;
-  font-weight: 900;
-  font-size: 50px;
-  text-align: center;
+.heading-products-container {
+  grid-column-start: 1;
+  grid-column-end: 4;
   padding-top: 5vw;
   padding-bottom: 5vw;
 }
@@ -132,16 +127,18 @@ h3{
   text-decoration: none;
 }
 
-
 .button-discover-more {
-  display: inline-flex;
+  display: flex;
   padding: 20px 60px 18px 60px;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  background: var(--White, #fff);
+  background: var(--white);
   text-decoration: none;
   list-style-type: none;
+}
+
+.button-text {
   color: var(--Dark, #231f20);
   text-align: center;
   font-family: Overpass;
@@ -151,7 +148,7 @@ h3{
   line-height: 110%;
 }
 
-.button-discover-more :hover{
+.button-discover-more :hover {
   color: var(--orange-hover);
 }
 
@@ -179,18 +176,17 @@ h3{
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  max-width: 600px;
-  gap: 20px;
+  gap: 40px;
+  min-width: 400px;
   padding-top: 18vw;
   padding-bottom: 18vw;
-  padding-left: 33vw;
+  padding-left: 32vw;
+  padding-right: 32vw;
 }
 
 .body-text1 {
   font-size: 1.2rem;
   text-align: center;
-  padding-top: 5vw;
-
 }
 
 .advantages-container {
@@ -204,7 +200,7 @@ h3{
   padding-right: 10vw;
 }
 
-.category-container {
+.products-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-right: 10vw;
@@ -212,7 +208,7 @@ h3{
   padding-bottom: 10vw;
 }
 
-.Categories {
+.Products {
   width: 80%;
 }
 
@@ -255,7 +251,7 @@ footer nav section ul {
   list-style-type: none;
 }
 
-.footer-text-underlined :hover{
+.footer-text-underlined :hover {
   color: var(--pink-hover);
   text-decoration-line: underline;
   text-decoration-color: var(--pink-hover);
@@ -270,7 +266,7 @@ footer nav section ul {
   list-style-type: none;
 }
 
-.footer-text :hover{
+.footer-text :hover {
   color: var(--pink-hover);
 }
 
@@ -297,9 +293,8 @@ footer p {
   color: var(--white);
   font-size: 14px;
   font-weight: 100;
-  padding-top: 0px;
+  padding-top: 20px;
 }
-
 
 @media screen and (max-width: 1400px) {
   .Footer_logo {
