@@ -77,8 +77,8 @@ header nav ul li a {
 }
 
 .Header-icons-container {
-  display: flex;
-  gap: 10px;
+  display:flex;
+  gap: 30px;
 }
 
 header nav div a {
@@ -111,6 +111,18 @@ h2 {
   font-weight: 900;
   font-size: 50px;
   text-align: center;
+
+}
+
+h3{
+  color: var(--dark);
+  font-family: "Nanum Myeongjo";
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
 }
 
 .product_name,
@@ -118,10 +130,7 @@ h2 {
   text-align: justify;
   color: var(--dark);
 }
-.body-text1 {
-  font-size: 1.2rem;
-  text-align: center;
-}
+
 
 .button-discover-more {
   display: inline-flex;
@@ -139,6 +148,10 @@ h2 {
   font-style: normal;
   font-weight: 600;
   line-height: 110%;
+}
+
+.button-discover-more :hover{
+  color: var(--orange-hover);
 }
 
 .made-with-love-container {
@@ -169,6 +182,14 @@ h2 {
   gap: 20px;
   padding-top: 18vw;
   padding-bottom: 18vw;
+  padding-left: 33vw;
+}
+
+.body-text1 {
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 5vw;
+
 }
 
 .advantages-container {
@@ -187,6 +208,7 @@ h2 {
   grid-template-columns: repeat(3, 1fr);
   margin-right: 10vw;
   margin-left: 10vw;
+  padding-bottom: 10vw;
 }
 
 .Categories {
@@ -231,6 +253,13 @@ footer nav section ul {
   color: var(--white);
   list-style-type: none;
 }
+
+.footer-text-underlined :hover{
+  color: var(--pink-hover);
+  text-decoration-line: underline;
+  text-decoration-color: var(--pink-hover);
+}
+
 .footer-text {
   font-size: 16px;
   font-weight: 300;
@@ -238,6 +267,10 @@ footer nav section ul {
   text-decoration: none;
   color: var(--white);
   list-style-type: none;
+}
+
+.footer-text :hover{
+  color: var(--pink-hover);
 }
 
 .Footer_icons-container {
@@ -263,8 +296,9 @@ footer p {
   color: var(--white);
   font-size: 14px;
   font-weight: 100;
-  padding-top: 20px;
+  padding-top: 0px;
 }
+
 
 @media screen and (max-width: 1400px) {
   .Footer_logo {
