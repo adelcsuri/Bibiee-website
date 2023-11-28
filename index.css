@@ -109,28 +109,27 @@ h2 {
   font-family: "Nanum Myeongjo";
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 50px;
+  font-size: 2.8rem;
   text-align: center;
 }
 
 .heading-products-container {
   grid-column-start: 1;
   grid-column-end: 4;
-  padding-top: 5vw;
-  padding-bottom: 5vw;
+  padding-top: 100px;
+  padding-bottom: 30px;
 }
 
-.productsA{
- text-align: justify;
- color: var(--dark);
- text-decoration: none;
+.made-with-love-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
 }
 
-.product_name,
-.price {
-  text-align: justify;
-  color: var(--dark);
-  text-decoration: none;
+.body-text1 {
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 .button-discover-more {
@@ -158,13 +157,6 @@ h2 {
   color: var(--orange-hover);
 }
 
-.made-with-love-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0px;
-}
-
 .section-first-home {
   display: flex;
   flex-direction: column;
@@ -190,37 +182,92 @@ h2 {
   padding-right: 32vw;
 }
 
-.body-text1 {
-  font-size: 1.2rem;
-  text-align: center;
-}
-
 .advantages-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  justify-items: center;
+  align-items: center;
   background-color: var(--orange);
   color: var(--white);
   font-size: 20px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   padding-left: 10vw;
   padding-right: 10vw;
+}
+
+.advantage-card {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.advantage-icon {
+  max-height: 80px;
+}
+
+.advantage-text {
+  color: var(--white);
+  text-align: center;
+  font-family: Overpass;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.product-card {
+  position: relative;
+  text-decoration: none;
+}
+
+.product_name,
+.price {
+  font-size: 1.2rem;
+  text-align: justify;
+  color: var(--dark);
+  text-decoration: none;
+}
+
+.product_name {
+  font-weight: 600;
+}
+
+.product-img {
+  width: 100%;
 }
 
 .products-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-right: 10vw;
-  margin-left: 10vw;
-  padding-bottom: 10vw;
+  gap: 4vw 8vw;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  padding-bottom: 90px;
+  margin-top: 150px;
+  margin-bottom: 180px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
 }
 
-.Products {
-  width: 80%;
+.heart {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  border-color: transparent;
 }
 
-.product_name{
-  text-decoration: none;
+svg {
+  max-width: 60%;
+  padding: 6px;
 }
+
 /*Footer*/
 
 footer {
