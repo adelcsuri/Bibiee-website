@@ -185,6 +185,7 @@ h2 {
 .advantages-container {
   display: flex;
   flex-direction: row;
+  gap: 60px;
   justify-content: space-between;
   justify-items: center;
   align-items: center;
@@ -215,7 +216,7 @@ h2 {
   font-family: Overpass;
   font-size: 24px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   line-height: normal;
 }
 
