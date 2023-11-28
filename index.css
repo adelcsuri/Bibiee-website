@@ -120,6 +120,12 @@ h2 {
   padding-bottom: 5vw;
 }
 
+.productsA{
+ text-align: justify;
+ color: var(--dark);
+ text-decoration: none;
+}
+
 .product_name,
 .price {
   text-align: justify;
@@ -212,6 +218,9 @@ h2 {
   width: 80%;
 }
 
+.product_name{
+  text-decoration: none;
+}
 /*Footer*/
 
 footer {
