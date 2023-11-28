@@ -98,7 +98,7 @@
 
   h1 {
     color: var(--dark);
-    font-family: "Overpass", sans-serif;
+    font-family: "Nanum Myeongjo", sans-serif;
     text-transform: uppercase;
     font-weight: 900;
     font-size: 50px;
@@ -147,8 +147,105 @@
   
   .Products {
     width: 80%;
+    
   }
   
   .product_name{
     text-decoration: none;
   }
+
+  /*Footer*/
+
+footer {
+  background-color: var(--brown);
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+footer nav {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+.footer-links-container {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 60px;
+}
+footer nav section ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+.footer-text-underlined {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: normal;
+  text-decoration-line: underline;
+  color: var(--white);
+  list-style-type: none;
+}
+
+.footer-text-underlined :hover {
+  color: var(--pink-hover);
+  text-decoration-line: underline;
+  text-decoration-color: var(--pink-hover);
+}
+
+.footer-text {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: normal;
+  text-decoration: none;
+  color: var(--white);
+  list-style-type: none;
+}
+
+.footer-text :hover {
+  color: var(--pink-hover);
+}
+
+.Footer_icons-container {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.Footer-icons {
+  padding: 8px 8px 6px 8px;
+}
+
+.Footer_logo {
+  max-width: 350px;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 100;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 1400px) {
+  .Footer_logo {
+    max-width: 250px;
+  }
+  .footer-text {
+    font-size: 14px;
+  }
+  .footer-text-underlined {
+    font-size: 14px;
+  }
+}
