@@ -120,11 +120,6 @@ h2 {
   padding-bottom: 5vw;
 }
 
-.productsA{
- text-align: justify;
- color: var(--dark);
- text-decoration: none;
-}
 
 .product_name,
 .price {
@@ -315,4 +310,16 @@ footer p {
   .footer-text-underlined {
     font-size: 14px;
   }
+}
+
+.deatailmainpicture{
+text-align: auto;
+margin-left: 200px;
+margin-top: 20px;
+vertical-align: auto;
+}
+
+.deatailfrontpicture{
+  width: 50px;
+  height: auto;
 }
