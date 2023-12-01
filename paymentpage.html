@@ -244,7 +244,7 @@
           <div class="input-container">
             <label for="card-number-input">Card number</label>
             <input
-              type="number"
+              type="tel"
               placeholder="xxxx xxxx xxxx xxxx"
               pattern="[0-9\s]{13,19}"
               id="card-number-input"
@@ -269,7 +269,7 @@
             <div class="input-container">
               <label for="card-expires-input">Expiration date</label>
               <input
-                type="number"
+                type="tel"
                 placeholder="MM / YY"
                 id="card-expires-input"
                 class="input-basic"
@@ -280,7 +280,7 @@
             <div class="input-container">
               <label for="card-cvc-input">Security code</label>
               <input
-                type="number"
+                type="tel"
                 id="card-cvc-input"
                 placeholder="CVC"
                 class="input-basic"
@@ -293,20 +293,18 @@
         <button type="submit" class="form-submit">Pay now</button>
       </form>
       <aside>
-        <section>
-          <div>
-            <img src="pictures/basic beanie checkout.png" alt="" />
+        <div class="product-checkout">
+          <img src="pictures/basic beanie checkout.png" alt="" />
+          <div class="price-name-check">
             <div>
-              <div>
-                <p>Basic beanie</p>
-                <p>S</p>
-                <p>Red</p>
-                <p>1</p>
-              </div>
-              <p>300.00€</p>
+              <p>Basic beanie</p>
+              <p>S</p>
+              <p>Red</p>
+              <p>1</p>
             </div>
+            <p>300.00€</p>
           </div>
-        </section>
+        </div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="587"
@@ -317,8 +315,8 @@
           <path d="M1 1H586" stroke="#231F20" stroke-linecap="round" />
         </svg>
         <div>
-          <p>Order prise: <span class="order-price">300 SEK</span></p>
-          <p>Shipping: <span class="shipping-price"> 40 SEK </span></p>
+          <p>Order prise: <span>300 SEK</span></p>
+          <p>Shipping: <span> 40 SEK </span></p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="587"

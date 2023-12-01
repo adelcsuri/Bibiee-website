@@ -110,6 +110,8 @@ h2 {
   text-align: center;
   padding-top: 70px;
   padding-bottom: 70px;
+  grid-column-start: 1;
+  grid-column-end: 4;
 }
 
 h4 {
@@ -162,10 +164,17 @@ label {
 .log-in p {
   font-size: 0.9rem;
 }
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 100px;
+}
 
 form {
+  grid-column-start: 1;
+  grid-column-end: 3;
   display: flex;
-  width: 60vw;
+  /*width: 60vw;*/
   max-width: 700px;
   min-width: 432px;
   padding: 70px;
@@ -265,6 +274,53 @@ button {
   font-style: normal;
   font-weight: 600;
   line-height: 110%;
+}
+
+aside {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  padding: 50px;
+  gap: 50px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.product-checkout {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-self: stretch;
+}
+
+.price-name-check {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  flex: 1 0 0;
+}
+
+.price-name-check :first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+aside div p {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+svg {
+  align-self: stretch;
 }
 
 /*Footer*/
