@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bibiee</title>
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="detailpage.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -57,145 +58,149 @@
       </nav>
     </header>
     <main>
-        <div class="detailmainpicture">
-        <img src="pictures/basic beanie bright red medium pic.png" alt="beanie picture" /></div>
-        <div class="detailchoosepicture">
-        <img src="pictures/basic red front big.png" alt="beanie front picture" />
-        <img src="pictures/basic red product big.png" alt="beanie product picture" />
-        <img src="pictures/basic red material big.png" alt="beanie material picture" />
-    </div>
-
-        <p class="detailinformation">
-            Basic beanie </p>
-        <p class="addto">
-            Add to wish list
-            <!-- <a href="#"><img
-                class="Header_icons"
-                src="icons/heart icon.svg"
-                alt="Heart icon"/>
-            </a> -->
-        </p>
-        <p class="price">
-            350 SEK
-        </p>
-        <p class="size">
-            <br>Size<br>
-            <br>xs   s   m   l<br>
-        </p>
-        <p class="color">
-            Color
-        </p>
-        <div class="colors-container">
-            <img src="pictures/red cotton.png" alt="red cotton">
-            <img src="pictures/yellow cotton.png" alt="yellow cotton">
-            <img src="pictures/blue cotton.png" alt="blue cotton">
+      <div class="main-container">
+        <div class="main-container-left">
+          <div class="detailmainpicture">
+            <img src="pictures/basic beanie bright red medium pic.png" alt="beanie picture" />
+          </div>
+          <div class="detailchoosepicture">
+            <img src="pictures/basic red front big.png" alt="beanie front picture" />
+            <img src="pictures/basic red product big.png" alt="beanie product picture" />
+            <img src="pictures/basic red material big.png" alt="beanie material picture" />
+          </div>
         </div>
-        <p class="quality">
-            Quality
-        </p>
-        <input class="qualitynumber" placeholder="amount"></input>
-        <button value="button" style="position: absolute; top: 53%; left: 70%;" onclick="alert('Added succsessfully!')">Add to cart</button>
-        <style>
-            button {
-                background-color: #D06809; 
-                color: white; 
-                padding: 10px 20px; 
-                border: none;
-                border-radius: 5px; 
-            }
-        </style>
-        <p class="description">
-            Description</p>
-        <div class="descriptioncontent">
-            <br>This handmade designed casual beanie is perfect for warmer day.</br>
-            <br>Comes in different colors.</br>
-            <br>
-            <br>100% cotton</br>
-            <br>
-            <br>We recommend you to wash it by hand</br>
+        <div class="main-container-right">
+          <p class="detailinformation">
+              Basic beanie </p>
+          <p class="addto">
+              Add to wish list
+              <!-- <a href="#"><img
+                  class="Header_icons"
+                  src="icons/heart icon.svg"
+                  alt="Heart icon"/>
+              </a> -->
+          </p>
+          <p class="price">
+              350 SEK
+          </p>
+          <p class="size">
+              <br>Size<br>
+              <br>xs   s   m   l<br>
+          </p>
+          <p class="color">
+              Color
+          </p>
+          <div class="colors-container">
+              <img src="pictures/red cotton.png" alt="red cotton">
+              <img src="pictures/yellow cotton.png" alt="yellow cotton">
+              <img src="pictures/blue cotton.png" alt="blue cotton">
+          </div>
+          <p class="quality">
+              Quality
+          </p>
+          <input class="qualitynumber" placeholder="amount"></input>
+          <button value="button" style="position: absolute; top: 53%; left: 70%;" onclick="alert('Added succsessfully!')">Add to cart</button>
+          <style>
+              button {
+                  background-color: #D06809; 
+                  color: white; 
+                  padding: 10px 20px; 
+                  border: none;
+                  border-radius: 5px; 
+              }
+          </style>
+          <p class="description">
+              Description</p>
+          <div class="descriptioncontent">
+              <br>This handmade designed casual beanie is perfect for warmer day.</br>
+              <br>Comes in different colors.</br>
+              <br>
+              <br>100% cotton</br>
+              <br>
+              <br>We recommend you to wash it by hand</br>
+          </div>
+          <p class="delivery">
+              Delivery
+          </p>
+          <div class="deliverycontent">
+              <li>Standard shipping: 40SEK/Free over 1000SEK</li>
+              <li>Delivery timeframe shown at checkout</li>
+              <li>Shipping to: Europe</li>
+              <li>Pay with Credit Card</li> 
+          </div>
         </div>
-        <p class="delivery">
-            Delivery
-        </p>
-        <div class="deliverycontent">
-            <li>Standard shipping: 40SEK/Free over 1000SEK</li>
-            <li>Delivery timeframe shown at checkout</li>
-            <li>Shipping to: Europe</li>
-            <li>Pay with Credit Card</li> 
-        </main>
-    <section>
-        <div class="similar">
+      </div>
+      <div class="similar">
             SIMILAR PRODUCTS
-        </div>
-        <div class="recommendations">
+      </div>
+      <div class="recommendations">
         <img src="pictures/pompom beanie mustard.png" alt="mustard beanie">
         <img src="pictures/fox beanie red.png" alt="fox beanie red">
         <img src="pictures/basic beanie red.png" alt="basic beanie red">
-        <img src="pictures/basic beanie pink.png" alt="basic beanie pink"></div>
-    </section>
-    <section>
-        <footer class="footer">
-            <nav>
-              <a  class="Footer_logo" href="index.html">
-                <img
-                  class="Footer_logo"
-                  src="icons/bibiee logo white.svg"
-                  alt="Bibiee logo"
-                />
-              </a>
-              <section class="footer-links-container">
-                <ul>
-                  <a class="footer-text-underlined" href="productpage.html">
-                    <li>Products</li>
-                  </a>
-                  <a class="footer-text-underlined" href="#">
-                    <li>Events</li>
-                  </a>
-                </ul>
-                <ul>
-                  <a class="footer-text-underlined" href="#">
-                    <li>About us</li>
-                  </a>
-                  <a class="footer-text-underlined" href="#">
-                    <li>Contact us</li>
-                  </a>
-                </ul>
-                <ul>
-                  <a class="footer-text" href="#">
-                    <li >bibieeknitting@gmail.com</li>
-                  </a>
-                  <a class="footer-text" href="#">
-                    <li>+36303696450</li>
-                  </a>
-                </ul>
-              </section>
-              <ul class="Footer_icons-container">
-                <a class="Footer-icons"
-                 href="https://www.instagram.com/bibieeknitting/">
-                  <img
-                    src="icons/instagram icon.svg"
-                    alt="Instagram icon"
-                  />
-                </a>
-                <a class="Footer-icons"
-                href="#">
-                  <img
-                    src="icons/email icon.svg"
-                    alt="Email icon"
-                  />
-                </a>
-                <a class="Footer-icons"
-                href="https://www.facebook.com/vivie.bibiee">
-                  <img
-                    src="icons/facebook icon.svg"
-                    alt="Facebook icon"
-                  />
-                </a>
-              </ul>
-            </nav>
-            <p> @ Bibiee 2023</p>
-          </footer>
-    </section>
+        <img src="pictures/basic beanie pink.png" alt="basic beanie pink">
+      </div>
+  </main>
+  <footer class="footer">
+      <nav>
+        <a  class="Footer_logo" href="index.html">
+          <img
+            class="Footer_logo"
+            src="icons/bibiee logo white.svg"
+            alt="Bibiee logo"
+          />
+        </a>
+        <section class="footer-links-container">
+          <ul>
+            <a class="footer-text-underlined" href="productpage.html">
+              <li>Products</li>
+            </a>
+            <a class="footer-text-underlined" href="#">
+              <li>Events</li>
+            </a>
+          </ul>
+          <ul>
+            <a class="footer-text-underlined" href="#">
+              <li>About us</li>
+            </a>
+            <a class="footer-text-underlined" href="#">
+              <li>Contact us</li>
+            </a>
+          </ul>
+          <ul>
+            <a class="footer-text" href="#">
+              <li >bibieeknitting@gmail.com</li>
+            </a>
+            <a class="footer-text" href="#">
+              <li>+36303696450</li>
+            </a>
+          </ul>
+        </section>
+        <ul class="Footer_icons-container">
+          <a class="Footer-icons"
+           href="https://www.instagram.com/bibieeknitting/">
+            <img
+              src="icons/instagram icon.svg"
+              alt="Instagram icon"
+            />
+          </a>
+          <a class="Footer-icons"
+          href="#">
+            <img
+              src="icons/email icon.svg"
+              alt="Email icon"
+            />
+          </a>
+          <a class="Footer-icons"
+          href="https://www.facebook.com/vivie.bibiee">
+            <img
+              src="icons/facebook icon.svg"
+              alt="Facebook icon"
+            />
+          </a>
+        </ul>
+      </nav>
+      <p> @ Bibiee 2023</p>
+    </footer>
     </body>
   </head>
 </html>
