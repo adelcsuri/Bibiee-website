@@ -70,12 +70,12 @@
       </nav>
     </header>
     <main>
-      <h2></h2>
+      <h2>Checkout</h2>
       <form action="" method="get">
         <!-- Contact information ------------------------------- -->
         <div>
           <h4>Contact information</h4>
-          <div>
+          <div class="email-log-in">
             <div class="input-container">
               <label for="email-input">Email</label>
               <input
@@ -137,46 +137,48 @@
         <!-- Delivery ------------------------------- -->
         <div>
           <h4>Delivery</h4>
-          <label for="country-input">Country</label>
-          <select
-            id="country-input"
-            class="input-basic"
-            required
-            autocomplete="country-name"
-          >
-            <option value="Austria">Austria</option>
-            <option value="Belgium">Belgium</option>
-            <option value="Bulgaria">Bulgaria</option>
-            <option value="Cyprus">Cyprus</option>
-            <option value="Czech Republic">Czech Republic</option>
-            <option value="Denmark">Denmark</option>
-            <option value="Estonia">Estonia</option>
-            <option value="Finland">Finland</option>
-            <option value="France">France</option>
-            <option value="Germany">Germany</option>
-            <option value="Greece">Greece</option>
-            <option value="Hungary">Hungary</option>
-            <option value="Ireland">Ireland</option>
-            <option value="Italy">Italy</option>
-            <option value="Latvia">Latvia</option>
-            <option value="Lithuania">Lithuania</option>
-            <option value="Luxembourg">Luxembourg</option>
-            <option value="Malta">Malta</option>
-            <option value="Netherlands">Netherlands</option>
-            <option value="Poland">Poland</option>
-            <option value="Portugal">Portugal</option>
-            <option value="Romania">Romania</option>
-            <option value="Slovakia">Slovakia</option>
-            <option value="Slovenia">Slovenia</option>
-            <option value="Spain">Spain</option>
-            <option value="Sweden">Sweden</option>
-            <option value="Ukraine">Ukraine</option>
-          </select>
+          <div class="input-container">
+            <label for="country-input">Country</label>
+            <select
+              id="country-input"
+              class="input-basic"
+              required
+              autocomplete="country-name"
+            >
+              <option value="Austria">Austria</option>
+              <option value="Belgium">Belgium</option>
+              <option value="Bulgaria">Bulgaria</option>
+              <option value="Cyprus">Cyprus</option>
+              <option value="Czech Republic">Czech Republic</option>
+              <option value="Denmark">Denmark</option>
+              <option value="Estonia">Estonia</option>
+              <option value="Finland">Finland</option>
+              <option value="France">France</option>
+              <option value="Germany">Germany</option>
+              <option value="Greece">Greece</option>
+              <option value="Hungary">Hungary</option>
+              <option value="Ireland">Ireland</option>
+              <option value="Italy">Italy</option>
+              <option value="Latvia">Latvia</option>
+              <option value="Lithuania">Lithuania</option>
+              <option value="Luxembourg">Luxembourg</option>
+              <option value="Malta">Malta</option>
+              <option value="Netherlands">Netherlands</option>
+              <option value="Poland">Poland</option>
+              <option value="Portugal">Portugal</option>
+              <option value="Romania">Romania</option>
+              <option value="Slovakia">Slovakia</option>
+              <option value="Slovenia">Slovenia</option>
+              <option value="Spain">Spain</option>
+              <option value="Sweden">Sweden</option>
+              <option value="Ukraine">Ukraine</option>
+            </select>
+          </div>
           <div class="postal-code-city-container">
             <div class="input-container">
               <label for="postal-code-input">Postal code</label>
               <input
-                type="number"
+                type="tel"
                 placeholder="Type postal code"
                 id="postal-code-input"
                 class="input-basic"
@@ -246,6 +248,7 @@
               placeholder="xxxx xxxx xxxx xxxx"
               pattern="[0-9\s]{13,19}"
               id="card-number-input"
+              class="input-basic"
               required
               autocomplete="cc-number"
             />
@@ -257,6 +260,7 @@
               placeholder="Type a name on card"
               pattern="[0-9\s]{13,19}"
               id="name-card-input"
+              class="input-basic"
               required
               autocomplete="cc-name"
             />
