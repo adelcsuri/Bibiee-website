@@ -1,36 +1,41 @@
 /* detailpage */
 /* ----added---- */
 .main-container {
-    width: 80%;
-    height: 810px;
-    margin: 0 200px;
+    /* div居中 */
+    align-items: center;
+    height: 1000px;
+    margin: 0 100px;
     padding: 0;
   }
   .main-container-left {
-    margin-left: 100px;
-    width: 600px;
-    height: 800px;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 800px;
+    height: 900px;
     float: left;
   }
   .main-container-right {
+    margin-left: 50px;
+    margin-top: 50px;
     width: 800px;
-    height: 800px;
-    margin-left: 810px;
+    height: 900px;
+    float: right;
   }
   /* ----added---- */
   
   .detailmainpicture{
-  margin-top: 20px;
+    margin-top: 20px;
   }
-  
+    
+  .detailmainpicture img {
+    width: 600px;
+
+    }
+    
   
   .detailinformation{
     font-family: Overpass;
     font-size: x-large;
-    position: absolute;
-    top: 20%;
-    left: 63%;
-    transform: translate(-50%, -50%);
     font-weight: bold;
   }
   
@@ -43,73 +48,50 @@
     justify-content: space-between; 
     margin: 20px;
   }
-  /* 
+  
   .addto{
     font-family: Overpass;
-    font-size: small;
-    position: absolute;
-    top: 20%;
-    left: 80%;
-    transform: translate(-50%, -50%);
+    font-size: medium;
+    float: right;
+    margin-right: 200px;
   }
   
   .price{
     font-family: Overpass;
-    font-size: small;
-    position: absolute;
-    top: 25%;
-    left: 60%;
-    transform: translate(-50%, -50%);
+    font-size: medium;
   }
   
   .size{
     font-family: Overpass;
     font-size: medium;
-    position: absolute;
-    top: 240px;
-    right: 530px;
-    transform: translate(-50%, -50%);
   }
   
   .color{
     font-family: Overpass;
     font-size: medium;
-    position: absolute;
-    top: 40%;
-    left: 59%;
-    transform: translate(-50%, -50%);
+    margin-top: 50px;
   }
   
+  .colors-container {
+    height: 60px;
+    margin-left: -10px;
+  }  
+
   .colors-container img{
-    text-align: auto;
-    margin-right: 500px;
-    margin-top: 20px;
-    width: 20px;
-    height: auto;
-    justify-content: space-between; 
+    width: 40px;
     margin: 10px;
-    top: 40%;
-    left: 59%;
   }
   
   .quality{
     font-family: Overpass;
     font-size: medium;
-    position: absolute;
-    top: 50%;
-    left: 59%;
-    transform: translate(-50%, -50%);
   }
   
   .qualitynumber{
     font-family: Overpass;
     font-size: medium;
-    position: absolute;
-    top: 55%;
-    left: 63%;
-    transform: translate(-50%, -50%);
   }
-  
+  /* 
   .description{
     font-family: Overpass;
     font-size: medium;
