@@ -120,6 +120,7 @@ h2 {
   padding-bottom: 30px;
 }
 
+
 .made-with-love-container {
   display: flex;
   flex-direction: column;
@@ -363,4 +364,158 @@ footer p {
   .footer-text-underlined {
     font-size: 14px;
   }
+}
+
+/* detailpage */
+.detailmainpicture{
+text-align: auto;
+margin-left: 200px;
+margin-top: 20px;
+vertical-align: auto;
+}
+
+
+.detailinformation{
+  font-family: Overpass;
+  font-size: x-large;
+  position: absolute;
+  top: 20%;
+  left: 63%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}
+
+.detailchoosepicture img{
+  text-align: auto;
+  margin-left: 300px;
+  margin-top: 20px;
+  vertical-align: auto;
+  width: 90px;
+  height: auto;
+  justify-content: space-between; 
+  margin: 20px;
+}
+
+.addto{
+  font-family: Overpass;
+  font-size: small;
+  position: absolute;
+  top: 20%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.price{
+  font-family: Overpass;
+  font-size: small;
+  position: absolute;
+  top: 25%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.size{
+  font-family: Overpass;
+  font-size: medium;
+  position: absolute;
+  top: 240px;
+  right: 530px;
+  transform: translate(-50%, -50%);
+}
+
+.color{
+  font-family: Overpass;
+  font-size: medium;
+  position: absolute;
+  top: 40%;
+  left: 59%;
+  transform: translate(-50%, -50%);
+}
+
+.colors-container img{
+  text-align: auto;
+  margin-right: 500px;
+  margin-top: 20px;
+  /* vertical-align: auto; */
+  width: 20px;
+  height: auto;
+  justify-content: space-between; 
+  margin: 10px;
+  top: 40%;
+  left: 59%;
+}
+
+.quality{
+  font-family: Overpass;
+  font-size: medium;
+  position: absolute;
+  top: 50%;
+  left: 59%;
+  transform: translate(-50%, -50%);
+}
+
+.qualitynumber{
+  font-family: Overpass;
+  font-size: medium;
+  position: absolute;
+  top: 55%;
+  left: 63%;
+  transform: translate(-50%, -50%);
+}
+
+.description{
+  font-family: Overpass;
+  font-size: medium;
+  position: absolute;
+  top: 64%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.descriptioncontent{
+  font-family: Overpass;
+  font-size: smaller;
+  position: absolute;
+  top: 75%;
+  left: 71%;
+  transform: translate(-50%, -50%);
+}
+
+.delivery{
+  font-family: Overpass;
+  font-size: medium;
+  position: absolute;
+  top: 90%;
+  left: 59%;
+  transform: translate(-50%, -50%);
+}
+
+.deliverycontent{
+  font-family: Overpass;
+  font-size: smaller;
+  position: absolute;
+  top: 96%;
+  left: 68%;
+  transform: translate(-50%, -50%);
+}
+
+.similar{
+  font-family: NanumMyeongjo;
+  font-size: x-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh; 
+  margin: 0;
+}
+
+.recommendations{
+  text-align: auto;
+  margin-left: 300px;
+  margin-top: 20px;
+  width: 30px;
+  height: auto;
+  justify-content: space-between; 
+  margin: 20px;
+  size: small;
 }
