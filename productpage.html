@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bibiee</title>
     <link rel="stylesheet" href="productpage.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -59,15 +60,75 @@
     </header>
     <main>
         <h1>Our products</h1>
-        <section class="category-container">
-            <a href="#" class="catogories">All</a>
-            <a href="#" class="categories">Popular now</a>
-            <a href="#" class="catogories">Summer</a>
-            <a href="#" class="categories">Winter</a>
-            <a href="#" class="categories">Other</a>
-            <a href="#" class="catogories">Color</a>
-            <a href="#" class="categories">Size</a>
-        </section>
+      <div class="Categories">
+        <ul>
+          <li class="active"><a href="#">All</a></li>
+          <li><a href="#">Popular now</a></li>
+          <li><a href="#">Summer</a><img class="icon" src="icons/menu_down.svg" alt="icon"></i>
+            <div class="Category-menu">
+                <ul>
+                <li><a href="#">All</a></li>
+                <li><a href="#">Swimwear</a></li>
+                <li><a href="#">Shawls</a></li>
+                <li><a href="#">Foot accessories</a></li>
+                </ul>
+            </div>
+          </li>
+          <li><a href="#">Winter</a><img class="icon" src="icons/menu_down.svg" alt="icon">
+            <div class="Category-menu">
+              <ul>
+              <li><a href="#">All</a></li>
+              <li><a href="#">Beanies</a></li>
+              <li><a href="#">Scarfs</a></li>
+              <li><a href="#">Gloves</a></li>
+              <li><a href="#">Sweaters</a></li>
+              </ul>
+          </div>
+          </li>
+          <li><a href="#">Other</a><img class="icon" src="icons/menu_down.svg" alt="icon">
+            <div class="Category-menu">
+              <ul>
+              <li><a href="#">All</a></li>
+              <li><a href="#">Home decor</a></li>
+              <li><a href="#">Toys</a></li>
+              </ul>
+          </div>
+          </li>
+          <li><a href="#">Color</a><img class="icon" src="icons/menu_down.svg" alt="icon">
+            <div class="Category-menu">
+              <ul>
+              <li><a href="#">All</a></li>
+              <li><a href="#">White</a></li>
+              <li><a href="#">Beige</a></li>
+              <li><a href="#">Pink</a></li>
+              <li><a href="#">Red</a></li>
+              <li><a href="#">Orange</a></li>
+              <li><a href="#">Mustard</a></li>
+              <li><a href="#">Green</a></li>
+              <li><a href="#">Blue</a></li>
+              <li><a href="#">Purple</a></li>
+              <li><a href="#">Grey</a></li>
+              <li><a href="#">Black</a></li>
+              </ul>
+          </div>
+          </li>
+          <li><a href="#">Size</a><img class="icon" src="icons/menu_down.svg" alt="icon">
+            <div class="Category-menu">
+              <ul>
+              <li><a href="#">All</a></li>
+              <li><a href="#">Baby</a></li>
+              <li><a href="#">Kid</a></li>
+              <li><a href="#">XS</a></li>
+              <li><a href="#">S</a></li>
+              <li><a href="#">M</a></li>
+              <li><a href="#">L</a></li>
+              <li><a href="#">Onesize</a></li>
+              </ul>
+          </div>
+          </li>
+        </ul>
+      </div>
+
         <section class="products-container">
           <a href="#" class="product-card">
             <figure>
