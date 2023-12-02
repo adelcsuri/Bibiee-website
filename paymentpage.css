@@ -111,7 +111,7 @@ h2 {
   padding-top: 70px;
   padding-bottom: 70px;
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 6;
 }
 
 h4 {
@@ -164,27 +164,38 @@ label {
 .log-in p {
   font-size: 0.9rem;
 }
+
+.product_name {
+  font-weight: 600;
+}
+
+.total-price {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
 main {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 100px;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 60px;
+  margin-bottom: 150px;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 form {
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 4;
   display: flex;
-  /*width: 60vw;*/
   max-width: 700px;
   min-width: 432px;
-  padding: 70px;
+  padding: 60px;
   flex-direction: column;
   align-items: flex-start;
   gap: 70px;
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(10px);
-  margin-left: 10vw;
 }
 
 main form div {
@@ -277,13 +288,16 @@ button {
 }
 
 aside {
-  grid-column-start: 3;
-  grid-column-end: 4;
+  position: sticky;
+  top: 0;
+  grid-column-start: 4;
+  grid-column-end: 6;
   display: flex;
   flex-direction: column;
   height: fit-content;
-  padding: 50px;
-  gap: 50px;
+  min-width: fit-content;
+  padding: 40px;
+  gap: 40px;
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(10px);
@@ -294,14 +308,15 @@ aside {
   flex-direction: row;
   gap: 30px;
   align-self: stretch;
+  align-items: center;
 }
 
 .price-name-check {
   display: flex;
+  gap: 14px;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  align-self: stretch;
   flex: 1 0 0;
 }
 
@@ -310,17 +325,36 @@ aside {
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
+  font-size: 1rem;
 }
 
-aside div p {
+.line {
+  width: 100%;
+}
+
+.price-shipping-total {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 15px;
+  align-self: stretch;
+}
+
+.price-shipping-total p {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   align-self: stretch;
 }
 
-svg {
-  align-self: stretch;
+@media screen and (max-width: 1200px) {
+  main {
+    display: block;
+  }
+  form {
+    max-width: none;
+    margin-bottom: 100px;
+  }
 }
 
 /*Footer*/

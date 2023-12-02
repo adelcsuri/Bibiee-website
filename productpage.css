@@ -106,22 +106,76 @@
     padding-top: 10vw;
   }
 
-  .category-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    padding: 10px 0;
+  .Categories{
     padding-top: 10vw;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .Categories ul{
+    display: inline-flex;
+    list-style: none;
+    color: var(--dark);
+  }
+
+  .Categories ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+  }
+
+  .Categories ul li a{
     text-decoration: none;
     color: var(--dark);
   }
 
-    .categories{
-        color: var(--dark);
-        text-decoration: none;
-    }
+  .active, .Categories ul li :hover{
+    text-decoration: underline;
+    text-decoration-color: var(--dark);
+  }
+
+  .Categories .icon{
+    margin-left: 5px; 
+  }
+
+  .Category-menu{
+    display: none;
+  }
+
+  .Categories ul li:hover .Category-menu{
+    display: block;
+    position: absolute;
+    background-color: var(--beige);
+    margin-top: 15px;
+    margin-left: -15px;
+  }
+
+  .Categories ul li:hover .Category-menu ul{
+    display: block;
+    margin: 10px;
+  }
+
+  .Categories ul li:hover .Category-menu ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted var(--white);
+    border-radius: 0;
+    text-align: left;
+  }
+
+
+  .Categories ul li:hover .Category-menu ul li:last-child{
+    border-bottom: none;
+  }
+
+  .Categories ul li:hover .Category-menu ul li a:hover{
+    color: var(--white);
+    text-decoration: none;
+  }
+
+
+  /*Product cards*/
 
   .productsA{
     text-align: justify;
