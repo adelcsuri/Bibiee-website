@@ -164,6 +164,16 @@ label {
 .log-in p {
   font-size: 0.9rem;
 }
+
+.product_name {
+  font-weight: 600;
+}
+
+.total-price {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
 main {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -285,8 +295,9 @@ aside {
   display: flex;
   flex-direction: column;
   height: fit-content;
+  min-width: fit-content;
   padding: 40px;
-  gap: 50px;
+  gap: 40px;
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(10px);
@@ -302,6 +313,7 @@ aside {
 
 .price-name-check {
   display: flex;
+  gap: 14px;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
@@ -323,9 +335,26 @@ aside {
 .price-shipping-total {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 22px;
+  align-items: stretch;
+  gap: 15px;
   align-self: stretch;
+}
+
+.price-shipping-total p {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+@media screen and (max-width: 1200px) {
+  main {
+    display: block;
+  }
+  form {
+    max-width: none;
+    margin-bottom: 100px;
+  }
 }
 
 /*Footer*/
