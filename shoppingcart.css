@@ -98,7 +98,7 @@
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 44px;
     font-family: nanummyeongjo;
     text-align: center;
     padding-top: 30px;
@@ -107,18 +107,18 @@
  
   h3 {
     font-family: overpass;
-    font-size: 28px;
+    font-size: 24px;
     padding-top: 30px;
     padding-bottom: 30px;
   }
   h5 {
-    font-size: 20px;
+    font-size: 16px;
     font-family: overpass;
     font-weight: 500;
   }
   h2 {
     font-family: overpass;
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 400;
   }
 .container {
@@ -157,17 +157,16 @@ main {
 .fa-solid {
     font-size: 10px;
 }
-.amount {
-    background-color: #dcc3ab; 
-    color: black; 
-    padding: 5px 25px;
-    border: none;
-    border-radius: 5px; 
-    display: grid;
-    grid-template-columns: 70% 30%;
-    text-align: left;
-    margin-top: 40px;
+
+select {
+  background-color: #DCC3AB;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  width: 60px;
+  margin-top: 55px;
 }
+
 .descripition {
     padding-top: 100px;
 }
@@ -180,7 +179,7 @@ aside {
 
 
 .fl {
-    font-size: 20px;
+    font-size: 16px;
     font-family: overpass;
     font-weight: 600;
     padding-top: 10px;
@@ -188,17 +187,17 @@ aside {
 }
 .fr {
     font-family: overpass; 
-    font-size: 18px;
+    font-size: 14px;
     border-radius: 5px; 
 }
 
 .sl, .sr, .tl, .tr {
-    font-size: 22px;
+    font-size: 18px;
     font-family: overpass;
     font-weight: 300;
 }
 .fol, .for {
-    font-size: 26px;
+    font-size: 22px;
     font-family: overpass;
     font-weight: 600;
     padding-top: 10px;
