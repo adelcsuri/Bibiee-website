@@ -64,12 +64,14 @@
           <div id="detailmainpicture" class="detailmainpicture">
             <img src="pictures/basic beanie bright red big pic.png" alt="beanie picture" />
           </div>
+          <!-- picture change -->
           <div class="detailchoosepicture">
             <img src="pictures/basic beanie bright red small pic.png" alt="beanie front picture" onclick="changeImage('basic beanie bright red big pic')"/>
             <img src="pictures/basic red front small.png" alt="beanie front picture" onclick="changeImage('basic red front big')"/>
             <img src="pictures/basic red product small.png" alt="beanie product picture" onclick="changeImage('basic red product big')"/>
             <img src="pictures/basic red material small.png" alt="beanie material picture" onclick="changeImage('basic red material big')"/>
           </div>
+          <!-- picture change -->
         </div>
         <div class="main-container-right">
           <p>
@@ -86,10 +88,32 @@
               350 SEK
           </p>
           <p class="size">
-              <br>Size<br>
-              <br>xs   s   m   l<br>
-              <br>xy cm  x  yx cm<br>
-          </p>
+              <br>Size<br></p>
+              <div class="circles-container">
+              <div class="circle">
+                <div class="circle-text">
+                  S
+                </div>
+              </div>
+            
+              <div class="circle">
+                <div class="circle-text">
+                  M
+                </div>
+              </div>
+            
+              <div class="circle">
+                <div class="circle-text">
+                  L
+                </div>
+              </div>
+            
+              <div class="circle">
+                <div class="circle-text">
+                  XL
+                </div>
+              </div>
+            </div>
           <p class="color">
               Color
           </p>
@@ -101,6 +125,7 @@
           <p class="quality">
               Quality
           </p>
+          <!-- select holder -->
           <select name="qualitynumber">
             <option value="1">1</option>
             <option value="2">2</option>
@@ -108,6 +133,7 @@
             <option value="4">4</option>
             <option value="5">5</option>
           </select>
+          <!-- select holder -->
           <button value="button" onclick="alert('Added succsessfully!')">Add to cart</button>
           <p class="description">
               Description</p>
