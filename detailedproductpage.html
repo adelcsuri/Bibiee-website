@@ -18,6 +18,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="detailedpage.js"></script>
     <body>
     <header>
       <nav>
@@ -60,13 +61,14 @@
     <main>
       <div class="main-container">
         <div class="main-container-left">
-          <div class="detailmainpicture">
-            <img src="pictures/basic beanie bright red medium pic.png" alt="beanie picture" />
+          <div id="detailmainpicture" class="detailmainpicture">
+            <img src="pictures/basic beanie bright red big pic.png" alt="beanie picture" />
           </div>
           <div class="detailchoosepicture">
-            <img src="pictures/basic red front big.png" alt="beanie front picture" />
-            <img src="pictures/basic red product big.png" alt="beanie product picture" />
-            <img src="pictures/basic red material big.png" alt="beanie material picture" />
+            <img src="pictures/basic beanie bright red small pic.png" alt="beanie front picture" onclick="changeImage('basic beanie bright red big pic')"/>
+            <img src="pictures/basic red front small.png" alt="beanie front picture" onclick="changeImage('basic red front big')"/>
+            <img src="pictures/basic red product small.png" alt="beanie product picture" onclick="changeImage('basic red product big')"/>
+            <img src="pictures/basic red material small.png" alt="beanie material picture" onclick="changeImage('basic red material big')"/>
           </div>
         </div>
         <div class="main-container-right">
@@ -74,12 +76,10 @@
             <a class="detailinformation">
                 Basic beanie </a>
             <a class="addto">
-                Add to wish list
-                <!-- <a href="#"><img
+                Add to wish list <img
                     class="Header_icons"
                     src="icons/heart icon.svg"
                     alt="Heart icon"/>
-                </a> -->
               </a>
           </p>
           <p class="price">
@@ -101,25 +101,20 @@
           <p class="quality">
               Quality
           </p>
-          <input class="qualitynumber" placeholder="amount"></input>
+          <select name="qualitynumber">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
           <button value="button" onclick="alert('Added succsessfully!')">Add to cart</button>
-          <style>
-              button {
-                  background-color: #D06809; 
-                  color: white; 
-                  padding: 10px 20px; 
-                  border: none;
-                  border-radius: 5px; 
-              }
-          </style>
           <p class="description">
               Description</p>
           <div class="descriptioncontent">
               <br>This handmade designed casual beanie is perfect for warmer day.</br>
               <br>Comes in different colors.</br>
-              <br>
               <br>100% cotton</br>
-              <br>
               <br>We recommend you to wash it by hand</br>
           </div>
           <p class="delivery">

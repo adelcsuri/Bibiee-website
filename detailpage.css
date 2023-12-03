@@ -1,46 +1,41 @@
 /* detailpage */
-/* ----added---- */
 .main-container {
-    /* div居中 */
     align-items: center;
-    height: 1000px;
-    margin: 0 100px;
+    height: 800px;
+    margin: 30px 5%;
     padding: 0;
   }
   .main-container-left {
-    margin-left: 50px;
-    margin-top: 50px;
-    width: 800px;
-    height: 900px;
+    width: 50%;
+    height: 800px;
     float: left;
   }
   .main-container-right {
-    margin-left: 50px;
-    margin-top: 50px;
-    width: 800px;
-    height: 900px;
+    width: 50%;
+    height: 800px;
     float: right;
   }
-  /* ----added---- */
-  
-  .detailmainpicture{
-    margin-top: 20px;
-  }
     
+  .detailmainpicture {
+    margin-right: 50px;
+    width: 500px;
+    height: 600px;
+    }
+        
   .detailmainpicture img {
-    width: 600px;
-
+    width: 500px;
+    height: auto;
     }
     
   
   .detailinformation{
-    font-family: Overpass;
     font-size: x-large;
     font-weight: bold;
   }
   
   .detailchoosepicture {
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-left: -15px;
   }
   .detailchoosepicture img{
     width: 90px;
@@ -50,83 +45,84 @@
   }
   
   .addto{
-    font-family: Overpass;
     font-size: medium;
     float: right;
     margin-right: 200px;
   }
+  .Header_icons{
+    height: 18px;
+  }
   
+  button {
+    background-color: #D06809; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    margin-left: 20px;
+  }
+
+  select {
+    background-color: #DCC3AB;
+    border-radius: 10px;
+    padding: 5px;
+    width: 60px;
+  }
   .price{
-    font-family: Overpass;
     font-size: medium;
   }
   
   .size{
-    font-family: Overpass;
     font-size: medium;
+    font-weight: bold;
   }
   
   .color{
-    font-family: Overpass;
     font-size: medium;
-    margin-top: 50px;
+    font-weight: bold;
+    margin-top: 20px;
   }
   
   .colors-container {
     height: 60px;
     margin-left: -10px;
   }  
-
+  
   .colors-container img{
     width: 40px;
     margin: 10px;
   }
   
   .quality{
-    font-family: Overpass;
     font-size: medium;
+    font-weight: bold;
+    margin-top: 20px;
   }
   
   .qualitynumber{
-    font-family: Overpass;
     font-size: medium;
   }
-  /* 
+  
   .description{
-    font-family: Overpass;
     font-size: medium;
-    position: absolute;
-    top: 64%;
-    left: 60%;
-    transform: translate(-50%, -50%);
+    font-weight: bold;
+    margin-top: 20px;
   }
   
   .descriptioncontent{
-    font-family: Overpass;
     font-size: smaller;
-    position: absolute;
-    top: 75%;
-    left: 71%;
-    transform: translate(-50%, -50%);
   }
   
   .delivery{
-    font-family: Overpass;
     font-size: medium;
-    position: absolute;
-    top: 90%;
-    left: 59%;
-    transform: translate(-50%, -50%);
+    font-weight: bold;
+    margin-top: 20px;
   }
   
   .deliverycontent{
-    font-family: Overpass;
     font-size: smaller;
-    position: absolute;
-    top: 96%;
-    left: 68%;
-    transform: translate(-50%, -50%);
-  } */
+    margin-top: 20px;
+  }
   
   .similar{
     font-family: NanumMyeongjo;
