@@ -168,3 +168,8 @@
     font-weight: regular;
     color: black;
   }
+
+  .descriptionabout-container{
+    display: flex;
+    margin-left: 8%;
+  }
