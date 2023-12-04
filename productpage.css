@@ -213,8 +213,7 @@
     padding-bottom: 90px;
     margin-top: 150px;
     margin-bottom: 180px;
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
+  
   }
   
   .heart {
