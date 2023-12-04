@@ -135,16 +135,31 @@
   }
   
   .recommendations{
+    display: flex; 
+    flex-wrap: wrap; 
     text-align: center;
     width: 95%;
     height: auto;
+    margin: 20px 50px;
+  }
+
+  .descriptionabout-container{
+    position: relative;
+    width: 20%;
     margin: 20px;
   }
-  
-  .recommendations img {
-    width: 20%;
+  .descriptionabout-container-img {
+    width: 100%;
     height: auto;
-    margin: 20px;
+  }
+  .overlay{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 10%;
+  }
+  .theprice {
+    text-align: left;
   }
 
   .circle {
@@ -169,7 +184,3 @@
     color: black;
   }
 
-  .descriptionabout-container{
-    display: flex;
-    margin-left: 8%;
-  }
