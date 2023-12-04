@@ -20,7 +20,7 @@
     --pink-hover: #e07b7d;
   }
   
-  /*Header*/
+  
   header {
     background: transparent;
   }
@@ -87,7 +87,7 @@
   
   .Header_logo {
     height: 50px;
-  }
+  } 
 
   body {
     background-image: url(icons/Backgroud\ icon.svg);
@@ -274,22 +274,18 @@ aside {
 .product-card h4 {
     margin: 20px;
 }
+
 .heart {
     display: block;
-    /* position: absolute; */
     position: relative;
-    /* top: 10px; */
     bottom: 480px;
     left: 20px;
     cursor: pointer;
     background-color: transparent;
     border-color: transparent;
-
   }
-
-  svg {
-    max-width: 60%;
-    padding: 6px;
+  .image {
+    max-width: 40%;
   }
 
 
